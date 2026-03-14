@@ -1,0 +1,106 @@
+{
+  "projectType": "saas",
+  "projectName": "Prueba POS",
+  "projectDescription": "A comprehensive Point-of-Sale system with inventory management, purchasing, and multi-channel sales operations built on React and Material-UI",
+  "theme": "mint",
+  "primaryColor": "#040404",
+  "lightColor": "#5bc5dc",
+  "darkColor": "#9adbe9",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "installation"
+            ]
+          },
+          {
+            "group": "Core Features",
+            "pages": [
+              "features/pos-operations",
+              "features/warehouse-management",
+              "features/purchasing",
+              "features/security"
+            ]
+          },
+          {
+            "group": "POS Module",
+            "pages": [
+              "modules/pos/overview",
+              "modules/pos/salon",
+              "modules/pos/delivery",
+              "modules/pos/showcase",
+              "modules/pos/cash-register"
+            ]
+          },
+          {
+            "group": "Warehouse Module",
+            "pages": [
+              "modules/warehouse/overview",
+              "modules/warehouse/products",
+              "modules/warehouse/stock-management",
+              "modules/warehouse/transfers",
+              "modules/warehouse/production-orders"
+            ]
+          },
+          {
+            "group": "Deployment",
+            "pages": [
+              "deployment/docker",
+              "deployment/configuration",
+              "deployment/environment-variables"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Framework",
+        "groups": [
+          {
+            "group": "Components",
+            "pages": [
+              "framework/overview",
+              "framework/components/forms",
+              "framework/components/grids",
+              "framework/components/buttons",
+              "framework/layout"
+            ]
+          },
+          {
+            "group": "Development",
+            "pages": [
+              "framework/context-providers",
+              "framework/routing",
+              "framework/utilities"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Multi-channel POS (Salon, Delivery, Showcase)",
+    "Comprehensive inventory and warehouse management",
+    "Production order and requirement management",
+    "Purchase order processing",
+    "Document and invoice generation",
+    "User authentication and role-based security",
+    "Report generation and export",
+    "Reusable React component framework"
+  ],
+  "publicApiSurface": [
+    "POS Operations (Salon, Delivery, Showcase, Cash Register)",
+    "Warehouse Management (Products, Stock, Transfers)",
+    "Purchase Orders",
+    "Production Orders",
+    "Document Management",
+    "Authentication API",
+    "Report Generation API",
+    "Framework Components (Forms, Grids, Buttons)"
+  ]
+}
